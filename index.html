@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopSense</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">ShopSense</div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search products..." />
+    </div>
+    <div class="cart" id="cartButton">
+      🛒 Cart (<span id="cartCount">0</span>)
+    </div>
+  </header>
+
+  <main>
+    <section class="product-grid" id="productGrid">
+      <!-- Products will be loaded here -->
+    </section>
+  </main>
+
+  <div class="cart-overlay" id="cartOverlay">
+    <div class="cart-content">
+      <h2>Your Cart</h2>
+      <ul id="cartItems"></ul>
+      <div class="cart-total">
+        Total: ₹<span id="cartTotal">0</span>
+      </div>
+      <button id="checkoutBtn">Checkout</button>
+      <button id="closeCart">Close</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 ShopSense | Built for SDC × GDG Recruitment Task</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

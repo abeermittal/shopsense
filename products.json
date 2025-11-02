@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Wireless Headphones",
+    "description": "Noise-cancelling over-ear headphones with superior sound.",
+    "price": 2999,
+    "image": "assets/headphones.jpg"
+  },
+  {
+    "name": "Smartwatch Pro",
+    "description": "Track your fitness and stay connected with this premium smartwatch.",
+    "price": 4999,
+    "image": "assets/smartwatch.jpg"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "description": "Portable speaker with deep bass and 12-hour battery life.",
+    "price": 1999,
+    "image": "assets/speaker.jpg"
+  },
+  {
+    "name": "Ergonomic Mouse",
+    "description": "Comfortable and precise mouse for work or gaming.",
+    "price": 999,
+    "image": "assets/mouse.jpg"
+  },
+  {
+    "name": "Laptop X15",
+    "description": "High-performance laptop for multitasking and productivity.",
+    "price": 75999,
+    "image": "assets/laptop.jpg"
+  },
+  {
+    "name": "Power Bank 20000mAh",
+    "description": "Fast-charging power bank with dual USB output.",
+    "price": 1599,
+    "image": "assets/powerbank.jpg"
+  }
+]
